@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة يوسف الفخمة 🌌</title>
+    
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #000000; /* خلفية سوداء سادة فخمة */
+            color: #ffffff;
+            padding: 50px 20px;
+        }
+        .box {
+            max-width: 400px;
+            background: #0a0a0a;
+            border: 1px solid #222;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 0 auto;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            background: #151515;
+            border: 1px solid #333;
+            color: white;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            background: linear-gradient(45deg, #00ffcc, #0077ff);
+            color: black;
+            border: none;
+            width: 100%;
+            padding: 12px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2>بوابة يوسف 🌌</h2>
+        
+        <input type="text" id="myUser" placeholder="اكتب اسم المستخدم...">
+        <input type="password" id="myPass" placeholder="اكتب كلمة السر...">
+        
+        <button onclick="alert('تم التقاط البيانات! \n\nالاسم: ' + document.getElementById('myUser').value + '\nالسر: ' + document.getElementById('myPass').value)">تسجيل دخول</button>
+    </div>
+
+</body>
+</html>
 
